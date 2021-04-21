@@ -104,7 +104,7 @@ function Flux:Window(bottom, mainclr, toclose)
     MainFrame.Name = "MainFrame"
     MainFrame.Parent = FluxLib
     MainFrame.AnchorPoint = Vector2.new(0.5, 0.5)
-    MainFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+    MainFrame.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
     MainFrame.ClipsDescendants = true
     MainFrame.Position = UDim2.new(0.5, 0, 0.5, 0)
     MainFrame.Size = UDim2.new(0, 0, 0, 0)
