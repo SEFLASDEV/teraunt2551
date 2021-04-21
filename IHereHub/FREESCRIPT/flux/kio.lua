@@ -144,7 +144,7 @@ function Flux:Window(bottom, mainclr, toclose)
     Title.Font = Enum.Font.GothamBold
     Title.Text = "IHEREHUB"
     Title.TextColor3 = Color3.fromRGB(255, 255, 255)
-    Title.TextSize = 20.000
+    Title.TextSize = 30.000
     Title.TextXAlignment = Enum.TextXAlignment.Left
 
     BottomText.Name = "BottomText"
