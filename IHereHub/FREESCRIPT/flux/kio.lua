@@ -115,7 +115,7 @@ function Flux:Window(bottom, mainclr, toclose)
 
     LeftFrame.Name = "LeftFrame"
     LeftFrame.Parent = MainFrame
-    LeftFrame.BackgroundColor3 = Color3.fromRGB(47, 49, 54)
+    LeftFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
     LeftFrame.Size = UDim2.new(0, 205, 0, 484)
 
     LeftCorner.CornerRadius = UDim.new(0, 5)
