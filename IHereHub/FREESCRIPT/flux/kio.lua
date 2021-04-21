@@ -104,7 +104,7 @@ function Flux:Window(bottom, mainclr, toclose)
     MainFrame.Name = "MainFrame"
     MainFrame.Parent = FluxLib
     MainFrame.AnchorPoint = Vector2.new(0.5, 0.5)
-    MainFrame.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+    MainFrame.BackgroundColor3 = Color3.fromRGB(53, 35, 45)
     MainFrame.ClipsDescendants = true
     MainFrame.Position = UDim2.new(0.5, 0, 0.5, 0)
     MainFrame.Size = UDim2.new(0, 0, 0, 0)
@@ -144,7 +144,7 @@ function Flux:Window(bottom, mainclr, toclose)
     Title.Font = Enum.Font.GothamBold
     Title.Text = "IHEREHUB"
     Title.TextColor3 = Color3.fromRGB(255, 255, 255)
-    Title.TextSize = 30.000
+    Title.TextSize = 25.000
     Title.TextXAlignment = Enum.TextXAlignment.Left
 
     BottomText.Name = "BottomText"
