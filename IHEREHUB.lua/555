@@ -12,7 +12,7 @@ wait(0.5)
 print("1")
 wait(0.5)
 print("Strat")
-if _G.Credit == "YESMAI#1034" then
+
 local Flux = loadstring(game:HttpGet("https://raw.githubusercontent.com/teraunt2551/YESMAI-1034-freescript/main/flux/XenonCrack/Polar%20no.1/HUM"))()
 local win = Flux:Window("BitcoinMiner",_G.Color, Enum.KeyCode.RightControl)
 local a = win:Tab("Main","http://www.roblox.com/asset/?id=6023426915")
@@ -235,9 +235,7 @@ end
 if _G.Key ~= "ASW-KLO-LOP-KIO" then
 game.Players.LocalPlayer:Kick("Key incorrect")
 end
-if _G.Credit ~= "YESMAI#1034" then
-game.Players.LocalPlayer:Kick("Credit incorrect")
-end
+
 if game.PlaceId  ~= 5303541547 then
 game.Players.LocalPlayer:Kick("HuBNotSupport")
 end
