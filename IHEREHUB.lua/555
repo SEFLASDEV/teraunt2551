@@ -1,9 +1,6 @@
 if game.PlaceId == 5303541547  then 
 
-
-_G.Key = "ASW-KLO-LOP-KIO"
-_G.Color = Color3.fromRGB(255,8,0)
-if _G.Key == "ASW-KLO-LOP-KIO" then
+if getgenv().Key == "ASW-KLO-LOP-KIO" then
 wait(0.5)
 print("5")
 wait(0.5)
