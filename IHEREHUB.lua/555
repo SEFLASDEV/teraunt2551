@@ -232,7 +232,7 @@ end)
 
 end
 end
-if getgenv().Key ~= "ASW-KLO-LOP-KIO" then
+if _G.Color ~= "ASW-KLO-LOP-KIO" then
 game.Players.LocalPlayer:Kick("Key incorrect")
 end
 if game.PlaceId  ~= 5303541547 then
