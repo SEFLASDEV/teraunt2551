@@ -1,7 +1,4 @@
 
-_G.Color = Color3.fromRGB(366,100,75)
-_G.Syetem = false
-_G.Key = "MheeHub no.1"
 if _G.Key == "MheeHub no.1" then
 if game.PlaceId == 5303541547 then
 wait(.2)
