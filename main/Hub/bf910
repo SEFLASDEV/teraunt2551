@@ -2,6 +2,15 @@
 if game.CoreGui:FindFirstChild("FluxLib") then
     game.CoreGui:FindFirstChild("FluxLib"):Destroy()
   end
+  function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
+
+counter = 0
+
+while wait(0.1)do
+ Title.TextColor3 = Color3.fromHSV(zigzag(counter),1,1)
+ 
+ counter = counter + 0.01
+end
   local r1 = math.random(0,255)
 local r2 = math.random(0,255)
 
@@ -154,7 +163,6 @@ function Flux:Window(text, bottom,mainclr,toclose)
 	Title.Size = UDim2.new(0, 111, 0, 34)
 	Title.Font = Enum.Font.GothamBold
 	Title.Text = text
-	Title.TextColor3 = Color3.fromRGB(r1, r2, r3)
 	Title.TextSize = 25.000
 	Title.TextXAlignment = Enum.TextXAlignment.Left
 	BottomText.Name = "BottomText"
