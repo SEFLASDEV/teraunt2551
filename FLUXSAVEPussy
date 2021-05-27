@@ -1,7 +1,10 @@
-local r1 = math.random(0,255)
+
+if game.CoreGui:FindFirstChild("FluxLib") then
+    game.CoreGui:FindFirstChild("FluxLib"):Destroy()
+  end '
+  local r1 = math.random(0,255)
 local r2 = math.random(0,255)
 local r3 = math.random(0,255)
-
 local Flux = {RainbowColorValue = 0, HueSelectionPosition = 0}
 local PresetColor = Color3.fromRGB(66, 134, 255)
 local UserInputService = game:GetService("UserInputService")
