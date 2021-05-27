@@ -1,7 +1,7 @@
 
 if game.CoreGui:FindFirstChild("FluxLib") then
     game.CoreGui:FindFirstChild("FluxLib"):Destroy()
-  end '
+  end
   local r1 = math.random(0,255)
 local r2 = math.random(0,255)
 local r3 = math.random(0,255)
