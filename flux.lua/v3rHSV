@@ -145,10 +145,7 @@ function Flux:Window(text, bottom,mainclr,toclose)
 	Title.Size = UDim2.new(0, 111, 0, 34)
 	Title.Font = Enum.Font.GothamBold
 	Title.Text = text
-	Title.TextColor3 = Color3.fromRGB(255, 255, 255)
-	Title.TextSize = 25.000
-	Title.TextXAlignment = Enum.TextXAlignment.Left
-	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
+		function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
 
 counter = 0
 
@@ -158,6 +155,8 @@ while wait(0.1)do
  counter = counter + 0.01
 end
 
+	Title.TextSize = 25.000
+	Title.TextXAlignment = Enum.TextXAlignment.Left
 	BottomText.Name = "BottomText"
 	BottomText.Parent = LeftFrame
 	BottomText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
