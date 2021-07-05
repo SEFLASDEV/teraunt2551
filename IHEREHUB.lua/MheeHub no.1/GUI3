@@ -124,7 +124,7 @@ function library:Main()
     Panel.BackgroundColor3 = Color3.new(0.0941176, 0.0941176, 0.0941176)
     Panel.BorderSizePixel = 0
     Panel.Position = UDim2.new(0, 3, 0, 3)
-    Panel.Size = UDim2.new(0, 126, 0, 200)
+    Panel.Size = UDim2.new(0, 430, 0, 430)
     library.UICorner(4, Panel)
 
     local ContentContainer = Instance.new("Frame")
@@ -133,7 +133,7 @@ function library:Main()
     ContentContainer.BackgroundColor3 = Color3.new(0.0941176, 0.0941176, 0.0941176)
     ContentContainer.BorderSizePixel = 0
     ContentContainer.Position = UDim2.new(0, 130, 0, 0)
-    ContentContainer.Size = UDim2.new(0, 217, 0, 200)
+    ContentContainer.Size = UDim2.new(0, 430, 0, 430)
     library.UICorner(4, ContentContainer)
 
     local ContentScrollContainer = Instance.new("Frame")
