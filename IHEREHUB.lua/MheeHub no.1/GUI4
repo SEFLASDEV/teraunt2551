@@ -142,7 +142,7 @@ function library:Main()
     ContentScrollContainer.BackgroundColor3 = Color3.new(0.0588235, 0.0588235, 0.0588235)
     ContentScrollContainer.BorderSizePixel = 0
     ContentScrollContainer.Position = UDim2.new(0, 3, 0, 3)
-    ContentScrollContainer.Size = UDim2.new(0, 211, 0, 194)
+    ContentScrollContainer.Size = UDim2.new(0, 430, 0, 430)
     library.UICorner(4, ContentScrollContainer)
 
     local TabScrollContainer = Instance.new("Frame")
@@ -151,7 +151,7 @@ function library:Main()
     TabScrollContainer.BackgroundColor3 = Color3.new(0.0588235, 0.0588235, 0.0588235)
     TabScrollContainer.BorderSizePixel = 0
     TabScrollContainer.Position = UDim2.new(0, 3, 0, 3)
-    TabScrollContainer.Size = UDim2.new(0, 120, 0, 194)
+    TabScrollContainer.Size = UDim2.new(0, 430, 0, 430)
     
     library.UICorner(4, TabScrollContainer)
     
@@ -162,7 +162,7 @@ function library:Main()
     TabContainer.BackgroundColor3 = Color3.new(1, 0, 0)
     TabContainer.BackgroundTransparency = 1
     TabContainer.BorderSizePixel = 0
-    TabContainer.Size = UDim2.new(0, 120, 0, 194)
+    TabContainer.Size = UDim2.new(0, 430, 0, 430)
     TabContainer.CanvasSize = UDim2.new(0, 0, 0, 0)
     TabContainer.ScrollBarThickness = 0
     library.UICorner(4, TabContainer)
